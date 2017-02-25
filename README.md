@@ -1,8 +1,8 @@
-# My Learning Notes
+# Going from Good to Great: Becoming a Better Software Developer
 
-> I am a software developer working in Singapore Changi Airport. As you can tell from the company name, firstly, it is not a startup in Silicon Valley. Secondly, it is not a software/tech company. However, that doesn't mean working as a software developer is not challenging in Singapore Changi Airport.
+> I am a software developer working in Singapore Changi Airport. As you can tell from the company name, firstly, it is not a startup in Silicon Valley. Secondly, it is not a software/tech company. However, that doesn't mean working as a software developer in the airport is not fun and challenging.
 > 
-> Software developers in the company are expected to always be creative to provide software/hardware solutions for the business needs. As a team, we work on projects in different areas, such as mobile-first web app development, mobile app development, and cloud-based vending machines IoT projects.
+> Software developers in the airport are expected to always be creative to provide software/hardware solutions for the business needs. As a team, we work on projects in different areas, such as mobile-first web app development, mobile app development, and cloud-based vending machines IoT projects.
 > 
 > Hence, in order to keep up with the fast-paced changes, I need to learn a lot of technologies. So, I have this repository to share what I've learned to my teammates so we can learn together!
 
