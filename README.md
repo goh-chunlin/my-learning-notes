@@ -1,10 +1,10 @@
 # Going from Good to Great: Becoming a Better Software Developer
 
-> I am a software developer working in Singapore Changi Airport. As you can tell from the company name, firstly, it is not a startup in Silicon Valley. Secondly, it is not a software/tech company. However, that doesn't mean working as a software developer in the airport is not fun and challenging.
+> I am a software developer working in Singapore Changi Airport. As you can tell from the company name, firstly, it is not a startup in Silicon Valley. Secondly, it is not a software/tech company. So working here means I'm not being technically mentored by a great software developer. I can only guess how to do things the correct way which is good enough to support the business needs.
 > 
-> Software developers in the airport are expected to always be creative to provide software/hardware solutions for the business needs. As a team, we work on projects in different areas, such as mobile-first web app development, mobile app development, and cloud-based vending machines IoT projects.
-> 
-> Hence, in order to keep up with the fast-paced changes, I need to learn a lot of technologies. So, I have this repository to share what I've learned to my teammates so we can learn together!
+> Working in the airport helps me to gain experience in software development. Even though my main focus is web development, I also work on cloud computing, mobile apps, and IoT projects. However, since it's not a software development company, I feel that I am missing some important experience such as constructing quality software with a professional software team.
+>
+> In order to keep up with the fast-paced changes, I need to self-learn. So, I create this repository to share what I've learned to my teammates so we can learn together!
 
 ## My Learning Journey
 
@@ -14,6 +14,7 @@
  - UI/UX
  - SCSS
  - Windows 10 IoT
+ - Unit Testing
  - ASP .NET Core
  - Django and Python
  - NodeJS with MEAN Stack
