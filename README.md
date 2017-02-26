@@ -1,6 +1,6 @@
 # Going from Good to Great: Becoming a Better Software Developer
 
-> I am a software developer working in [Singapore Changi Airport](https://en.wikipedia.org/wiki/Singapore_Changi_Airport). As you can tell from the company name, firstly, it is not Silicon Valley, dream place for software developer. Secondly, it is not a software/tech company. So working here means I'm not being technically mentored by a great software developer. I can only guess how to do things the correct way which is good enough to support the business needs.
+> I am a software developer working in [Singapore Changi Airport](https://en.wikipedia.org/wiki/Singapore_Changi_Airport). As you can tell from the company name, firstly, it is not in Silicon Valley, dream place for software developer. Secondly, it is not a software/tech company. So working here means I'm not being technically mentored by a great software developer. I can only guess how to do things the correct way which is good enough to support the business needs.
 > 
 > Working in the airport helps me to gain experience in software development. Even though my main focus is web development, I also work on cloud computing, mobile apps, and IoT projects. However, since it's not a software development company, I feel that I am missing some important experience such as constructing quality software with a professional software team.
 >
