@@ -23,6 +23,11 @@ Microsoft.CodeDom.Providers.DotNetCompilerPlatform
 Microsoft.Net.Compilers
 ```
 
+## Output Window and Error List Window
+The build process can be observed in the **Output Window**. Errors, warnings, and build operations are displayed there. If there are errors or warnings above a configured level, the build will fail. For a cleaner view of the issues, we can also navigate to the **Error List Window** to have a more organized view of the errors and warnings for the projects with description.
+
+Click on the error line in the Error List Window then we can quickly jump to the line the error occurs in.
+
 ## References
  - [Getting Started with Debugging in Visual Studio 2015](https://msdn.microsoft.com/en-us/library/dn986851.aspx)
  - [What does the Visual Studio "Any CPU" target mean?](http://stackoverflow.com/questions/516730/what-does-the-visual-studio-any-cpu-target-mean)
