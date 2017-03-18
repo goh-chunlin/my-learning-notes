@@ -29,4 +29,4 @@ Microsoft.Net.Compilers
  - [What AnyCPU Really Means As Of .NET 4.5 and Visual Studio 11](http://blogs.microsoft.co.il/sasha/2012/04/04/what-anycpu-really-means-as-of-net-45-and-visual-studio-11/)
  - [Prefer 32-Bit with Any CPU Platform Target - Visual Studio 2012 Enhancements](http://www.shujaat.net/2013/09/prefer-32-bit-with-any-cpu-platform.html)
  - [Roslyn - Github](https://github.com/dotnet/roslyn)
- - [Could not find a part of the path … bin\roslyn\csc.exe] (http://stackoverflow.com/a/38668274)
+ - [Could not find a part of the path … bin\roslyn\csc.exe](http://stackoverflow.com/a/38668274)
