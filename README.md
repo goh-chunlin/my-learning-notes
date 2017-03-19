@@ -10,7 +10,7 @@
 
  - [ASP .NET MVC](/aspnet/mvc)
  - Microsoft Azure
- - Visual Studio
+ - [Visual Studio](/ide/visual-studio)
  - UI/UX
  - SCSS
  - Windows 10 IoT
