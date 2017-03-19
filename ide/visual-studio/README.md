@@ -5,10 +5,10 @@
    - Quick Launch
  - Build
    - Build
-   - Error Review
    - Code Analysis
    - Light Bulbs
  - Debug
    - Breakpoints
    - Run-time Code Inspecting
+   - Error Review
  - Test
