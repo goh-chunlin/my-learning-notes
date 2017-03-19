@@ -20,6 +20,11 @@
  - NodeJS with MEAN Stack
  - AngularJS
  - ReactJS
+ - Object Oriented Programming
+ - Object Oriented Analysis and Design
+ - Design Patterns
+ - Lean Software Development in Startup Business
+ - Talks and Seminars
  - Readings and Books
  
 ## Why?
