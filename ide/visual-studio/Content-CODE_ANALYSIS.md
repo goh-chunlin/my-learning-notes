@@ -36,3 +36,7 @@ It measures the coupling to unique classes. High coupling indicates a design tha
 
 ### Lines of Code
 It indicates the approximate number of lines in the code because the count is based on the Intermediate Language code. A very high count might indicate that a type or method is trying to do too much work and should be split up. It might also indicate that the type or method might be hard to maintain.
+
+## References
+ - [Code Metrics Values](https://msdn.microsoft.com/en-us/library/bb385914.aspx)
+ - [How to: Generate Code Metrics Data](https://msdn.microsoft.com/en-us/library/bb385908.aspx)
