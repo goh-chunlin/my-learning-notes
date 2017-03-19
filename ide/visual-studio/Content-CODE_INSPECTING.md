@@ -69,6 +69,7 @@ We can also use the Immediate Window to execute complex expressions (even evalua
 Immediate Window also can execute a function or subroutine while the application is not running. If the function or subroutine contains a breakpoint, the debugger will break execution at the appropriate point. We can then use the debugger windows to examine the program state. This feature is called **Debugging at Design Time**.
 
 ## References
+ - [7 Ways to Look at the Values of Variables While Debugging in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/07/15/7-ways-to-look-at-the-values-of-variables-while-debugging-in-visual-studio/)
  - [Tips & Tricks : Visual Studio - Debugging Using Data Tips](http://www.shujaat.net/2013/04/tips-tricks-visual-studio-debugging.html)
  - [Did you know… What’s the difference between the Autos window and the Locals window? – #316](https://blogs.msdn.microsoft.com/saraford/2008/09/18/did-you-know-whats-the-difference-between-the-autos-window-and-the-locals-window-316/)
  - [Walkthrough: Debugging at Design Time](https://msdn.microsoft.com/en-us/library/83hd8f1e.aspx)
