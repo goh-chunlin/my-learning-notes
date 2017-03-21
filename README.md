@@ -9,7 +9,7 @@
 ## My Learning Journey
 
  - [ASP .NET MVC](/aspnet/mvc)
- - Microsoft Azure
+ - [Microsoft Azure](/cloud/microsoft-azure)
  - [Visual Studio](/ide/visual-studio)
  - UI/UX
  - SCSS
