@@ -35,7 +35,7 @@
     - Done, the CSR is now saved in a text file.
  2. Go back to RapidSSL website and submit the CSR text content (Yes, everything in the CSR file).
  
-## Retrieve p7b File
+## Retrieve P7B File
  1. After the submission is approved, an email with the subject "**Your RapidSSL certificate is ready**";
     - There is instructions in the email guiding us on how to install the certificate on Windows server. The guide is not covering topic about PaaS web hosting on Azure, so we will ignore it.
  2. Click on the link in the email which points to instructions guiding us on how to install the certificate;
@@ -46,7 +46,7 @@
     **getting_started.txt**: Optional to read it.    
     **ssl_certificate.p7b**: This is the file we need because it contains the certificates that comprise the "certificate chain" that allows the certificate to be verified up to our CA.
     
-## Generate pfx File
+## Generate PFX File
  1. Unzipped the downloaded zipped file.
  2. Get back into **IIS Manager on the same local computer** that created the CSR;
  3. Navigate back to the **Server Certificates** page, and click on **Complete Certificate Request** in the **Actions** pane;
@@ -59,7 +59,7 @@
  9. Click the ... box to browse to a location where we want to save the PFX file;
  10. Enter password for the PFX file;
  
-## Upload Certificate File (pfx) to Cloud Service
+## Upload Certificate File (PFX) to Cloud Service
  1. Visit the **Certificates** tab of the targeted Cloud Service app in the **Azure Classic Portal**;
  2. Click on "Upload" to upload the PFX file with the password;
     ![Upload cert to Cloud Service](https://info.ssl.com/wp-content/uploads/Upload.png)
@@ -69,9 +69,17 @@
     - Windows, .NET, and Azure all use SHA1 algorithm for the thumbprint algorithm, and SHA1 is the only algorithm allowed in the ServiceConfiguration.cscfg file.
     - Thumbprint Algorithm is **NOT** the **Signing Algorithm** which is used to actually sign the certificate. SHA-1 in Signing Algorithm makes the certificate less secure. So we are not talking about using SHA1 for Signing Algorithm here. Please don't be worried.
   4. Deploy the Cloud Service app to Azure with the new thumbprint for the cert. Done!
+  
+## About P7B and PFX Files
+There are many types of SSL certificate. PKCS#7 is one of them.
+
+The PKCS#7 format is usually stored in **Base-64 ASCII format** and has a file extention of .p7b. P7B files contain `-----BEGIN PKCS #7 SIGNED DATA-----` and `-----END PKCS #7 SIGNED DATA-----` statements. A P7B file only contains certificates and chain certificates, but not the private key. Several platforms support P7B files including Microsoft Windows and Java Tomcat.
+
+The PKCS#12 or PFX format is a **binary format** for storing the server certificate, any intermediate certificates, and the private key in one encryptable file. PFX files usually have extensions such as .pfx and .p12. PFX files are typically used on Windows machines to import and export certificates and private keys.
  
 ## References
   - [SSL Certificates CSR Creation :: IIS 8 and IIS 8.5](https://www.digicert.com/csr-creation-microsoft-iis-8.htm)
   - [convert p7b to pfx for Azure - Stack Overflow](http://stackoverflow.com/a/14968039/1177328)
   - [Azure Cloud Service and SSL - cuteprogramming](https://cuteprogramming.wordpress.com/2015/03/29/azure-cloud-service-and-ssl/)
   - [Azure Cloud Services only support SHA-1 Thumbprint Algorithm](https://blogs.msdn.microsoft.com/kwill/2015/02/16/azure-cloud-services-only-support-sha-1-thumbprint-algorithm/)
+  - [What are the differences between PEM, DER, P7B/PKCS#7, PFX/PKCS#12 certificates](https://myonlineusb.wordpress.com/2011/06/19/what-are-the-differences-between-pem-der-p7bpkcs7-pfxpkcs12-certificates/)
