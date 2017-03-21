@@ -26,7 +26,7 @@
       **State/Province**: The state in which our organization is located, eg. "Singapore";    
       **Country/Region**: Two-digit country code of the country in which our organization is located, eg. "SG".
     - In the "**Cryptographic Service Provider Properties**" window, submit the following information.    
-      **NOTE: RapidSSL requires us to use RSA and a 2048-bit key to generate the CSR.**
+      **NOTE: RapidSSL requires us to use RSA and a 2048-bit key to generate the CSR.**    
       **Cryptographic Service Provider**: In the drop-down list, select "**Microsoft RSA SChannel Cryptographic Provider**".    
       **Bit Length**: Please choose "**2048**".
     - Click the ... box to browse to a location where we want to save the CSR file.
@@ -41,7 +41,7 @@
  2. Click on the link in the email which points to instructions guiding us on how to install the certificate;
  3 We will be brought to the RapidSSL web page saying "**DOWNLOAD AND INSTALL YOUR CERTIFICATE**". Click on the **Get started** button;
  4. Choose **Microsoft Windows 2012 - IIS 8.0 & 8.5** as our server platform;
- 5. Click the **Download** button to receive a zipped file containing the following files.
+ 5. Click the **Download** button to receive a zipped file containing the following files.    
     **SSLAssistant**: A folder with tool to help installing the cert on IIS, we don't need it.    
     **getting_started.txt**: Optional to read it.    
     **ssl_certificate.p7b**: This is the file we need because it contains the certificates that comprise the "certificate chain" that allows the certificate to be verified up to our CA.
