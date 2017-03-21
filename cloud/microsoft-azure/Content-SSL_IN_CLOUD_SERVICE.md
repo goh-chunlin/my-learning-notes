@@ -1,5 +1,7 @@
 # SSL In Cloud Service (with RapidSSL)
 
+ ![RapidSSL](https://getcert.rapidssl.com/rcm/rapidssl/images/logo.gif)
+
 ## Purchase SSL on RapidSSL
  1. Login to [RapidSSL](https://www.rapidssl.com/);
  2. Click on "Renew" button if you are renewing the cert;
