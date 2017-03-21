@@ -29,7 +29,7 @@
       **NOTE: RapidSSL requires us to use RSA and a 2048-bit key to generate the CSR.**    
       **Cryptographic Service Provider**: In the drop-down list, select "**Microsoft RSA SChannel Cryptographic Provider**".    
       **Bit Length**: Please choose "**2048**".
-    - Click the ... box to browse to a location where we want to save the CSR file.
+    - Click the ... box to browse to a location where we want to save the CSR file.    
       **NOTE: Remember the filename that is chosen and the location to which it is saved. The file is required later.**    
       ![Saving CSR as text file](https://www.digicert.com/images/support-images/iis8/iis8-csr-5.png)
     - Done, the CSR is now saved in a text file.
