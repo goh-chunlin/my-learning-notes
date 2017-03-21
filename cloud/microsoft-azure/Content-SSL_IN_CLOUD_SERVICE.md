@@ -65,3 +65,4 @@
   - [SSL Certificates CSR Creation :: IIS 8 and IIS 8.5](https://www.digicert.com/csr-creation-microsoft-iis-8.htm)
   - [convert p7b to pfx for Azure - Stack Overflow](http://stackoverflow.com/a/14968039/1177328)
   - [Azure Cloud Service and SSL - cuteprogramming](https://cuteprogramming.wordpress.com/2015/03/29/azure-cloud-service-and-ssl/)
+  - [Azure Cloud Services only support SHA-1 Thumbprint Algorithm](https://blogs.msdn.microsoft.com/kwill/2015/02/16/azure-cloud-services-only-support-sha-1-thumbprint-algorithm/)
