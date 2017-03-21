@@ -54,6 +54,7 @@
  20. Enter password for the PFX file;
  21. Visit the **Certificates** tab of the targeted Cloud Service app in the **Azure Classic Portal**;
  22. Click on "Upload" to upload the PFX file with the password;
+     ![Upload cert to Cloud Service](https://info.ssl.com/wp-content/uploads/Upload.png)
  23. Update the **Certificate Thumbprint** in **ServiceConfiguration.Cloud.csfg** and **ServiceConfiguration.Local.csfg** files.
      - Please take note that the **Thumbprint Algorithm** will always be "sha1".
      - Thumbprint Algorithm is used to generate a thumbprint in order to uniquely identify and find a certificate. This algorithm and value is not built into the certificate but is instead calculated whenever a cert lookup is done.
