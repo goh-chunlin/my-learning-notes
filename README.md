@@ -4,7 +4,7 @@
 > 
 > Working in the airport helps me to gain experience in software development. Even though my main focus is web development, I also work on cloud computing, mobile apps, and IoT projects. However, since it's not a software development company, I am missing some important experience such as constructing quality software with a professional software team. 
 >
-> To overcome this, as a fan of self-learning, I thus choose to spend after office hour to learn new skills and new information in order to keep up with the fast-paced changes in software development field. So, I create this repository to not only share what I've learned, but also to learn from contributors to this notes so we can learn together. =) 
+> To overcome this, as a fan of self-learning, I thus choose to spend after office hour to learn new skills and new information in order to keep up with the fast-paced changes in software development field. So, I create this repository to not only share what I've learned, but also to learn from contributors to this notes. If you would like to make contributions to make this set of notes better, feel free to do so! Let's learn together. =) 
 
 ## My Learning Journey
 
