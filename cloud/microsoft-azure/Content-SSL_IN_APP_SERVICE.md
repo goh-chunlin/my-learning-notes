@@ -38,7 +38,7 @@
  5. There should be an email with the subject "**Domain Access Verification**" received. If not, click the **Resend Email** button on the **Domain Verification** pane;
  6. The email will be sent by Azure SSL partner, i.e. **GoDaddy**. Click on the verification link to proceed to confirm the ownership of the domain;
  7. Click the **Refresh** button on the **Domain Verification** pane;
- 8. Click the **Refresh** button on the **App Service Certificate** pane until there is a notification box at the bottom of it saying "**Certification **";
+ 8. Click the **Refresh** button on the **App Service Certificate** pane until there is a notification box at the bottom of it saying "**Certification**";
  9. Make sure all the three checkboxes in Certificate Status pane are ticked.
  
 ## Import Certificate to App Service
@@ -53,3 +53,6 @@
  
 ## What Is The Use Of Azure Key Vault Here?
 Azure Key Vault allows us to safeguard our App Service Certificates. App Service Apps will securely load certificates from specified Azure Key Vault for normal operations as well as handle renew, reissue and rekey operations on your App Service Certificates.
+
+## References
+ - [Purchase an App Service Certificate](https://channel9.msdn.com/blogs/Azure-App-Service-Self-Help/Purchase-an-App-Service-Certificate)
