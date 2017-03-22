@@ -29,7 +29,7 @@
     **Advanced Access Policies**: Leave it as default.
  6. Deployment and saving of Azure Key Vault will take about 1 minute to complete.
  
-## Setup App Service Certificate Step 2: Deploying Azure Key Vault
+## Setup App Service Certificate Step 2: Verifying Domain Ownership
  1. The same Alert Bar in previous step now is changed to saying "**Perform required domain verification ->**". Click on it;
  2. Click on **Step 2: Verify** in the **Certificate Status** pane;
  3. For the **Select the method to verify domain ownership** dropdown, change to use **Mail Verification**;
