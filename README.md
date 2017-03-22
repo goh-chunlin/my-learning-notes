@@ -11,7 +11,7 @@
  - [ASP .NET MVC](/aspnet/mvc)
  - [Microsoft Azure](/cloud/microsoft-azure)
  - [Visual Studio](/ide/visual-studio)
- - UI/UX
+ - [UI/UX](/ui-ux)
  - SCSS
  - Windows 10 IoT
  - Unit Testing
