@@ -39,7 +39,7 @@
  1. After the submission is approved, an email with the subject "**Your RapidSSL certificate is ready**";
     - There is instructions in the email guiding us on how to install the certificate on Windows server. The guide is not covering topic about PaaS web hosting on Azure, so we will ignore it.
  2. Click on the link in the email which points to instructions guiding us on how to install the certificate;
- 3 We will be brought to the RapidSSL web page saying "**DOWNLOAD AND INSTALL YOUR CERTIFICATE**". Click on the **Get started** button;
+ 3. We will be brought to the RapidSSL web page saying "**DOWNLOAD AND INSTALL YOUR CERTIFICATE**". Click on the **Get started** button;
  4. Choose **Microsoft Windows 2012 - IIS 8.0 & 8.5** as our server platform;
  5. Click the **Download** button to receive a zipped file containing the following files.    
     **SSLAssistant**: A folder with tool to help installing the cert on IIS, we don't need it.    
