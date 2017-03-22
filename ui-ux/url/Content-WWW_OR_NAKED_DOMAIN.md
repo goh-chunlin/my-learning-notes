@@ -9,7 +9,7 @@ From User Experience point of view, it is not recommended to use www in URLs of 
  - Naked domain makes the URL easy to remember, unless the domain name itself is long also;
  - Having www in a URL will make the URL to be longer and thus people feel difficult to share our website on Twitter which forces the input to be at most 144 characters long. Hence, it's better to keep the URL short.
 
-There are people who disagree to use naked domain from User Experience point of view. They believe that the www clearly conveys that is the address on the World Wide Web and people are used to seeing the www.
+Meanwhile, there are also people who disagree to use naked domain from User Experience point of view. They believe that the www clearly conveys that is the address on the World Wide Web and people are used to seeing the www.
 
 ## SEO
 For average users, to use either www.example.com or just example.com for their website main domain, there isn't so much difference. In fact, it has almost no effect on SEO, according to [Google Search Console Help](https://support.google.com/webmasters/answer/44231?hl=en).
