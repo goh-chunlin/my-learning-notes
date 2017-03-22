@@ -12,7 +12,7 @@
     **Resource Group**: Choose the correct Resource Group.    
     **Certificate SKU**: Choose "Standard" for single domain or subdomain; Choose "Wild Card" for wildcard cert.    
     **Legal Terms**: Please click and read then click "OK" to agree the terms. Don't skip it!
- 5. The deployments of new App Service Certificate will take about 10 minutes. After it is done, please click on **Refresh** to see it appear in the list of App Service Certificates.
+ 5. The deployments of new App Service Certificate will take about 5 minutes. After it is done, please click on **Refresh** to see it appear in the list of App Service Certificates.
  
 ## Setup App Service Certificate Step 1: Deploying Azure Key Vault
  1. Click on the new App Service Certificate;
