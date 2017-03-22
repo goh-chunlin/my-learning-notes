@@ -38,10 +38,10 @@
  5. There should be an email with the subject "**Domain Access Verification**" received. If not, click the **Resend Email** button on the **Domain Verification** pane;
  6. The email will be sent by Azure SSL partner, i.e. **GoDaddy**. Click on the verification link to proceed to confirm the ownership of the domain;
  7. Click the **Refresh** button on the **Domain Verification** pane;
- 8. Click the **Refresh** button on the **App Service Certificate** pane until there is a notification box at the bottom of it saying "**Domain verification completed: Certificate authority is working on getting your certificate issued. It will take a couple of minutes to issue your certificate and get it stored on the Key Vault configured.**".
+ 8. Click the **Refresh** button on the **App Service Certificate** pane until there is a notification box at the bottom of it saying "**Domain verification completed: Certificate authority is working on getting your certificate issued. It will take a couple of minutes to issue your certificate and get it stored on the Key Vault configured.**". It takes about 5-10 minutes.
  
 ## Setup App Service Certificate Step 3: Waiting for Issue of Certificate
- 1. Click the **Refresh** button on the **App Service Certificate** pane until there is a notification box at the bottom of it saying "**Certificate Ready: You have completed the necessary configuration steps, certificate has been issued and is now ready for assignment.**";
+ 1. Click the **Refresh** button on the **App Service Certificate** pane until there is a notification box at the bottom of it saying "**Certificate Ready: You have completed the necessary configuration steps, certificate has been issued and is now ready for assignment.**". It takes about 5-10 minutes;
  2. Make sure all the three checkboxes in Certificate Status pane are ticked.
  
 ## Import Certificate to App Service
