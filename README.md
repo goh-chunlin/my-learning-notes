@@ -13,13 +13,13 @@
  - [Visual Studio](/ide/visual-studio)
  - [UI/UX](/ui-ux)
  - SCSS
+ - Android App Development
  - Windows 10 IoT
  - Unit Testing
  - ASP .NET Core
  - Django and Python
  - NodeJS with MEAN Stack
  - AngularJS
- - ReactJS
  - Object Oriented Programming
  - Object Oriented Analysis and Design
  - Design Patterns
