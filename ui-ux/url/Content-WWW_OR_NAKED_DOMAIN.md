@@ -45,6 +45,45 @@ www.example.com IN CNAME example.trafficmanager.net
 ## Choose One and Stick with It
 Once we've set our preferred domain, we need to use a **301 Redirect** to redirect traffic from non-www (or www) domain to www (or non-www), so that search engines and visitors know which version we prefer. What's important is that we must stay consistent with the one that we chose at the time of starting our website. **DO NOT CHANGE** the site URL after opening your website.
 
+### 301 Redirect using web.config in ASP .NET
+To redirect from naked domain to one with www, please have the following rewrite rule.
+
+```
+<rewrite>
+  <rules>
+  
+    ...
+  
+    <rule name="Redirect example.com to www.example.com" patternSyntax="Wildcard" stopProcessing="true">
+      <match url="*" />
+      <conditions>
+        <add input="{HTTP_HOST}" pattern="example.com" />
+      </conditions>
+      <action type="Redirect" url="http://www.example.com/{R:0}" />
+    </rule>
+  </rules>
+</rewrite>
+```
+
+To redirect from domain with www to naked domain, please have the following rewrite rule.
+
+```
+<rewrite>
+  <rules>
+  
+    ...
+  
+    <rule name="Redirect www.example.com to example.com" stopProcessing="true">
+      <match url="(.*)" ignoreCase="true" />
+      <conditions>
+        <add input="{HTTP_HOST}" pattern="^www\.example\.com$" />
+      </conditions>
+      <action type="Redirect" url="http://www.example.com/{R:1}" redirectType="Permanent" />
+    </rule>
+  </rules>
+</rewrite>
+```
+
 ## References
  - [Set your preferred domain (www or non-www)](https://support.google.com/webmasters/answer/44231?hl=en)
  - [‘WWW’ Is Out. Naked Domains Are In!](https://uptownstudios.net/www-is-out-naked-domains-are-in/)
