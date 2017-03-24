@@ -1,5 +1,5 @@
 # Trailing Slash
-A **Trailing Slash** is the forward slash (/) placed at the end of a URL. The trailing slash is generally used to mark a directory. If a URL is not terminated using a trailing slash, it generally points to a file.
+A **Trailing Slash** is the forward slash (/) placed at the end of a URL.
 
 ## To Slash or Not - That's The Problem
 Historically, it’s common for URLs with a trailing slash to indicate a directory, and those without a trailing slash to denote a file:
@@ -19,7 +19,9 @@ In an ideal world, there's a one-to-one pairing between URL and content: each UR
 
 It is important to remove trailing slash from the URLs because if websites can be accessed through a URL with a different number of trailing slashes such as a page that can be opened with two or no trailing slashes, it will result in duplicate content which should be avoided. Any individual content should only be accessible through a single URL and having search engine indexing multiple URLs which point to the same page can also hurt the ranking of the website on SERP (Search Engine Results Page).
 
-If both slash and non-trailing-slash versions contain the same content and each returns 200, please consider changing this behavior to reduce duplicate content and improve crawl efficiency.
+If both slash and non-trailing-slash versions contain the same content and each returns 200, please consider changing this behavior to have one of them redirected to its counterpart. This is to reduce duplicate content and improve crawl efficiency.
+
+**Be consistent with the version of the URL used in the website.** If there is a Sitemap, please include the preferred version (and don't include the duplicate URL).
 
 ## Removing Trailing Slash in ASP.NET
 To remove the trailing slash from the url of our website if there is one and make 301 permanent redirect to the new URL, please have the following rewrite rule.
@@ -42,14 +44,12 @@ To remove the trailing slash from the url of our website if there is one and mak
 </rewrite>
 ```
 
-Choose one URL as the preferred version. **Be consistent with the preferred version.** Use it in the internal links of the website. If there is a Sitemap, please include the preferred version (and don't include the duplicate URL).
-
 **Note:** In the development environment, if we need to run the web site under at least IIS Express to see this feature working.
 
 **Note:** Rest assured that for the root URL specifically, http://example.com is equivalent to http://example.com/ in Google search engine and cannot be redirected.
 
 ## Test
-We can test the 301 configuration through Fetch as Googlebot in Google Search Console by following the steps below.
+We can test the 301 configuration through Fetch as Google in Google Search Console by following the steps below.
 
  1. Login to [Google Search Console](https://www.google.com/webmasters/tools/home?hl=en);
  2. Select the website to test;
