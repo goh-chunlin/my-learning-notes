@@ -6,7 +6,7 @@
 >
 > To overcome this, as a fan of self-learning, I thus choose to spend after office hour to learn new skills and new information in order to keep up with the fast-paced changes in software development field. So, I create this repository to not only share what I've learned, but also to learn from contributors to this notes. If you would like to make contributions to make this set of notes better, feel free to do so! Let's learn together. =) 
 
-## My Learning Journey
+## My Learning Journey Roadmap
 
  - [ASP .NET MVC](/aspnet/mvc)
  - [Microsoft Azure](/cloud/microsoft-azure)
@@ -39,7 +39,7 @@ If you would like to contribute to this repo, that will be great!
 
  - Kindly contribute corrections on typo, spelling, and grammar.
  - Please let me know if you'd like me to remove links to your website which is referenced in this repository.
- - Feel free to make any contributions you feel will make it better.
+ - This is a collaborative process, so dig in and try to help out! Feel free to make any contributions you feel will make it better by sending in a pull request. Please!
 
 Thanks in advance!
 
