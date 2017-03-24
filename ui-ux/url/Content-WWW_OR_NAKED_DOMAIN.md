@@ -22,7 +22,7 @@ For average users, to use either www.example.com or just example.com for their w
 
 What Google Search Console suggests is that we still need to verify ownership of both the www and non-www versions of our domain. After that, in the **Preferred domain** section in [Google Search Console (fka Google Web Masters Tool)](https://www.google.com/webmasters/tools/home?hl=en), we just need to specify which domain we want to use, www or without www.
 
-As a nontechincal SEO advantage of a naked domain is SERP (Search Engine Results Pages) results - more space in the SERP result to display URL of the result page. If you have a deep URL structure with long names - this can become very handy to help increase SERP CTR (CLick-Through Rate).
+As a nontechincal SEO advantage of a naked domain is SERP (Search Engine Results Pages) results - more space in the SERP result to display URL of the result page. If you have a deep URL structure with long names - this can become very handy to help increase SERP CTR (Click-Through Rate).
 
 ## Cookies
 If our app sets cookies to naked domain example.com, cookies will also be available for all subdomains *.example.com. Hence, the cookies will possibly interfere with cookie used on other subdomains. For example, if our static content is served from subdomain static.example.com, we need to go with www. Doing so, we can then make the static content subdomain static.example.com cookieless, thus improving performance because using no www will set domain-level cookies and send them for all requests. Twitter, for instance, which does not use www, had to buy new domain names, such as twimg.com, just for static content.
