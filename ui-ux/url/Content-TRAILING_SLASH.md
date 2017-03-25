@@ -44,7 +44,7 @@ To remove the trailing slash from the url of our website if there is one and mak
 </rewrite>
 ```
 
-**Note:** In the development environment, if we need to run the web site under at least IIS Express to see this feature working.
+**Note:** In the development environment, we need to run the web site under at least IIS Express to see this feature working.
 
 **Note:** Rest assured that for the root URL specifically, http://example.com is equivalent to http://example.com/ in Google search engine and cannot be redirected.
 
