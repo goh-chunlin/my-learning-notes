@@ -78,7 +78,7 @@ However, Strict-Transport-Security should not be sent over HTTP. It should be se
       <conditions>
         <add input="{HTTPS}" pattern="on" ignoreCase="true" />
       </conditions>
-      <action type="Rewrite" value="max-age=31536000" />
+      <action type="Rewrite" value="max-age=31536000" /> <!-- 31,536,000 is in seconds. It equals to 365 days. -->
     </rule>
   </outboundRules>
 </rewrite>
