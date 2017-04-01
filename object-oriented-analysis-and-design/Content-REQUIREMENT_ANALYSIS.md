@@ -24,10 +24,22 @@ There are 3 basic parts to a good use case.
  2. **External Initiator**: Every use case is started off by an external initiator which is outside of the system, such as the user.
  3. **Start and Stop**: Every use case must have a definite **starting** and **stopping point**.
 
+## Analysis
+Our software has to **work in the real world**, not just in a perfect world. We have to think about our software in a different context where things go wrong a lot more often. **Analysis** helps us to ensure our system works in a **real-world context**. Analysis helps us figuring out potential problems before the software is released out into the real world.
+
+## Class Diagrams
+Class diagrams are a great way to get an overview of the system, and show the parts of the system to other developers. However, there are things they don't show.
+ - Details of how the method should work;
+ - Reasons of having the parameter(s) in the method;
+ - General idea behind the class.
+
 ## Lessons
  - Having a task list can help showing the top management exactly what developers are working on, and what work developers think is left to finish the project.
  - Sometimes even the users do not know what they really want.
    - It's developers' job to ask the users questions to find out what they want before deciding what the system shoud do.
-	 - Developers need to think beyond what users asked for and anticipate their needs.
-	 - A good set of requirements goes beyond just what the users tell the developers. Developers need to make sure that the system works, even in unusual or unexpected circumstances.
+   - Developers need to think beyond what users asked for and anticipate their needs.
+   - A good set of requirements goes beyond just what the users tell the developers. Developers need to make sure that the system works, even in unusual or unexpected circumstances.
  - Additional requirements almost always come up as developers work on a project.
+ - Write the use cases in a way that makes sense to developers, managers, and users.
+ - Analysis and use cases let us show other developers, managers, and users how our system works in a **real world context**.
+ - With a good use case complete, **textual analysis** is a quick and easy way to figure out the classes in our system.
