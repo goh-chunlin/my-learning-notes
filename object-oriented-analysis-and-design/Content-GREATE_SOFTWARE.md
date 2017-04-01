@@ -16,6 +16,46 @@
  - Get rid of all those annoying string comparisons. Please use **enums**.
  - Benefit of using enums is that methods or classes use them are protected from any values not defined in the enum. So we will achieve not only type safety but also value safety.
  
+```
+public enum DiscountType
+{
+ [EnumDescription("Dollar")]
+ DOLLAR = 0,
+ [EnumDescription("Percentage")]
+ PERCENTAGE = 1
+}
+```
+
+```
+public static class EnumExtensions
+{
+ public class EnumDescription : Attribute
+ {
+  public string Text { get; private set; }
+  
+  public EnumDescription(string text)
+  {
+   Text = text;
+  }
+ }
+ 
+ public static string ToDescription(this Enum enumeration)
+ {
+  var type = enumeration.GetType();
+  var memberInfo = type.GetMember(enumeration.ToString());
+  
+  if (memInfo != null && memInfo.Length > 0)
+  {
+   var attrs = memInfo[0].GetCustomAttributes(typeof(EnumDescription), false);
+   if (attrs != null && attrs.Length > 0)
+   {
+    return ((EnumDescription)attrs[0]).Text;
+   }
+  }
+ }
+}
+```
+ 
 ## Objects are Not Xaxiubao (Loosely Coupled)
  - Objects should do what their names indicate. An object named Airplane should not do takeTicket().
  - Each object should represent a single concept. Avoid a Duck object that represents a real quacking duck and a yellow plastic duck.
