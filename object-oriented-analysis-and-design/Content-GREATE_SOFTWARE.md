@@ -41,17 +41,19 @@ public static class EnumExtensions
 	
 	public static string ToDescription(this Enum enumeration)
 	{
-  	var type = enumeration.GetType();
-  	var memberInfo = type.GetMember(enumeration.ToString());
+  		var type = enumeration.GetType();
+  		var memberInfo = type.GetMember(enumeration.ToString());
   
-  	if (memInfo != null && memInfo.Length > 0)
-  	{
-   		var attrs = memInfo[0].GetCustomAttributes(typeof(EnumDescription), false);
-   		if (attrs != null && attrs.Length > 0)
-   		{
-    		return ((EnumDescription)attrs[0]).Text;
-   		}
-  	}
+  		if (memInfo != null && memInfo.Length > 0)
+  		{
+			var attrs = memInfo[0].GetCustomAttributes(typeof(EnumDescription), false);
+   			if (attrs != null && attrs.Length > 0)
+   			{
+    			return ((EnumDescription)attrs[0]).Text;
+   			}
+  		}
+
+		return enumeration.ToString();
  	}
 }
 ```
