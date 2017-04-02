@@ -8,10 +8,10 @@
 
 ## My Learning Journey Roadmap
 
- - [ASP .NET MVC](/aspnet/mvc)
- - [Microsoft Azure](/cloud/microsoft-azure)
- - [Visual Studio](/ide/visual-studio)
- - [UI/UX](/ui-ux)
+ - [ASP .NET MVC](/aspnet/mvc/README.md)
+ - [Microsoft Azure](/cloud/microsoft-azure/README.md)
+ - [Visual Studio](/ide/visual-studio/README.md)
+ - [UI/UX](/ui-ux/README.md)
  - SCSS
  - Android App Development
  - Windows 10 IoT
@@ -21,7 +21,7 @@
  - NodeJS with MEAN Stack
  - AngularJS
  - Object Oriented Programming
- - Object Oriented Analysis and Design
+ - [Object Oriented Analysis and Design](/object-oriented-analysis-and-design/README.md)
  - Design Patterns
  - Lean Software Development in Startup Business
  - Talks and Seminars
@@ -32,7 +32,7 @@ I actually have a blog at [https://cuteprogramming.wordpress.com](https://cutepr
 
 ## Resources
  - [:book: Professional ASP .NET MVC 5](https://www.amazon.com/Professional-ASP-NET-MVC-Jon-Galloway/dp/1118794753)
- - [:computer: Simplifying CSS in Visual Studio With Sass](https://www.pluralsight.com/courses/simplifying-css-visual-studio-sass)
+ - [:book: Head First Object-Oriented Analysis & Design](http://www.headfirstlabs.com/books/hfooad/)
 
 ## Contributions
 If you would like to contribute to this repo, that will be great!
