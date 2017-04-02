@@ -70,3 +70,6 @@ LSP is **not about subclassing**; it's about **when to subclass**. If our subcla
 Delegation is also one of several alternatives to inheritance.
 
 Delegation is best used when we want to **use another class's functionality**, as is, **without changing that behavior at all**.
+
+## Lessons
+ - Among delegated class, delegating class, aggregated class, and composite class, a subclass is the only class that **change** another class's behavior.
