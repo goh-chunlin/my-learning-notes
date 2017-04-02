@@ -222,6 +222,9 @@ public class Person
 }
 ```
 
+## Composition vs Aggregation
+The easiest way to figure out when to use which one is to ask, "**Does the object whose behavior we want to use exist outside of the object that uses its behavior?**".
+
 ## Cohesive Class
 A cohesive class does **one thing** really well and does not try to **do or be something else**.
 
