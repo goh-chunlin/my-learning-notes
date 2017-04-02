@@ -178,11 +178,21 @@ The **base** keyword indicates that the base class must be used and allows acces
 ## Aggregation
 Aggregation is a special form of association, and means that one thing is made up (in part) of another thing.
 
+## Cohesive Class
+A cohesive class does **one thing** really well and does not try to **do or be something else**.
+
+The more cohesive our classes are, the higher the cohesion of our software is.
+
+Cohesion measures the degree of connectivity among the elements of a single module, class, or object. The higher the cohesion of our software is, the more **well-defined and related** the responsibilities of each individual class in our application.
+
 ## Lessons
  - Whenever we find common behavior in two or more places, look to abstract that behavior into a class, and then reuse that behavior in the common classes.
  - We should always favor **coding to the interface, not the implementation**.
  - The easiest way to make our software resilient to change is to make sure **each class has only one reason to change**.
    - When a class has more than one reason to change, it is probably **doing too many things**. Kindly try to break up the functionality into **multiple classes**, where **each individual class does only one thing** -- and therefore has only **one** reason to change.
+ - Code once, look twice: Keep looking over our designs when we run into problems. A decision we made earlier may be what's causing us headaches now.
+   - Pride kills good design.
+   - Design is **iterative**, and we have to be willing to **change our own designs**, as well as those that we inherit from other programmers.
  
 ## References
  - [Abstract Class versus Interface](https://www.codeproject.com/Articles/11155/Abstract-Class-versus-Interface)
