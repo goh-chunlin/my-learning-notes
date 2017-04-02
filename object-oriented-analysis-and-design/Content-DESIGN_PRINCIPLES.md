@@ -1,6 +1,6 @@
 # Design Principles
 
-A design principle is a basic tool or technique that can be applied ti designing or writing code to make that code more maintainable, flexible, or extensible.
+A design principle is a basic tool or technique that can be applied to designing or writing code to make that code more maintainable, flexible, or extensible.
 
 ## Open-Closed Principle (OCP)
 
