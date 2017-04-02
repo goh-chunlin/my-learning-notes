@@ -1,4 +1,4 @@
-# Object Oriented Analysis and Design
+# Object-Oriented Analysis and Design
 
 This section basically is my notes taken while I was reading the book **Head First Object-Oriented Analysis & Design** from O'Reilly. This book helps me to learn and understand the key concepts and stages in object-oriented analysis and design.
 
@@ -11,4 +11,4 @@ This section basically is my notes taken while I was reading the book **Head Fir
 - [Design Principles](/object-oriented-analysis-and-design/Content-DESIGN_PRINCIPLES.md)
 
 ## Resources
- - [:book: Head First Object-Oriented Analysis & Design](https://www.amazon.com/Head-First-Object-Oriented-Analysis-Design/dp/0596008678)
+ - [:book: Head First Object-Oriented Analysis & Design](http://www.headfirstlabs.com/books/hfooad/)
