@@ -73,3 +73,4 @@ Delegation is best used when we want to **use another class's functionality**, a
 
 ## Lessons
  - Among delegated class, delegating class, aggregated class, and composite class, a subclass is the only class that **change** another class's behavior.
+ - Use inheritance when one object **behaves** like another, rather than just when the is-a relationship applies.
