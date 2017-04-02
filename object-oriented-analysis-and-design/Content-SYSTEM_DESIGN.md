@@ -175,8 +175,52 @@ public class Bird : Animal
 
 The **base** keyword indicates that the base class must be used and allows access to its non-abstract methods via **base.Method(...)**, its member variables via **base.field**, and its constructors via **base(...)**.
 
+## Composition
+Composition allows us to use behavior from a family of other classes, and to change that behavior at runtime.
+
+**Pizza** is actually a great example of composition. Pizza is **composed of** different ingredients, but we can swap out different ingredients without affecting the overall pizza slice.
+
+When the pizza is gone, so are the ingredients.
+
+> In composition, the object composed of other behaviors **owns** those behaviors. When the object is destroyed, **so are all of its behaviors**. The behaviors in a composition **do not exist** outside of the composition itself.
+
+```
+public class Heart
+{
+  ...
+}
+
+public class Person
+{
+  var heart = new Heart();
+  ...
+}
+```
+
 ## Aggregation
+What happens when we want all the benefits of **composition**, but our composed objects need to exist outside of our main object? That is where **aggregation** comes in.
+
 Aggregation is a special form of association, and means that one thing is made up (in part) of another thing.
+
+> Aggregation is when one class used as part of another class, but still exists outside of that other class.
+
+```
+public class Clothe
+{
+  ...
+}
+
+public class Person
+{
+  private Clothe _clothe;
+  
+  public Person(Clothe clothe)
+  {
+    _clothe = clothe;
+  }
+  ...
+}
+```
 
 ## Cohesive Class
 A cohesive class does **one thing** really well and does not try to **do or be something else**.
