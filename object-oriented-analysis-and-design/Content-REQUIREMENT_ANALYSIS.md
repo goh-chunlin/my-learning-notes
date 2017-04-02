@@ -13,9 +13,11 @@ When it comes to requirements, the best thing developers can do is **let the use
 ## Writing Use Cases
 A use case describes **what** the system **does** to accomplish a **particular goal of the users**.
 
-Use cases are all about "**what**". Developers should **not worry about the "how"** when writing use cases.
+A use case focuses on a **single** goal. Use cases are **detail-oriented**; **Use Case Diagrams** are focused more on the big picture.
 
-A use case focuses on a **single** goal.
+An **Actor** in the use case diagram is anything that interacts with our system, but isn't part of the system.
+
+Use cases are all about "**what**". Developers should **not worry about the "how"** when writing use cases.
 
 A use case is a technique for capturing the potential requirements  of a new system or software change. Each use case provides one or more **scenarios** that convey how the system should **interact** with the end user or another system to achieve a **specific goal**.
 
@@ -32,6 +34,15 @@ Class diagrams are a great way to get an overview of the system, and show the pa
  - Details of how the method should work;
  - Reasons of having the parameter(s) in the method;
  - General idea behind the class.
+ 
+## Solving Big Problems
+ - Listen to the users, and figure out what they want us to build;
+ - Put together a **Feature List**, in language the users understand;
+ - Make sure our features are what the users actually want;
+ - Create blueprints of the system using **Use Case Diagrams** (and use cases);
+ - Break the big system up into lots of smaller section;
+ - Apply **Design Patterns** to the smaller section of the system;
+ - Use basic **OOAD Principles** to design and code each smaller section.
 
 ## Lessons
  - Having a task list can help showing the top management exactly what developers are working on, and what work developers think is left to finish the project.
