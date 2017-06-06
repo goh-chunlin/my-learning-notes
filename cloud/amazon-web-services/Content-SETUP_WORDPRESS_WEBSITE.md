@@ -96,9 +96,9 @@ We will be using an existing Amazon Machine Image (AMI) from the AWS Marketplace
 19. Once the Apache server is restarted, revisit the Wordpress blog. The Bitnami logo will be gone.
 
 ## References
-- [Launch a WordPress Website](https://aws.amazon.com/getting-started/tutorials/launch-a-wordpress-website/)
-- [Register a Domain Name](https://aws.amazon.com/getting-started/tutorials/get-a-domain/)
-- [Connecting to Your Linux Instance from Windows Using PuTTY](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
+- [How to Build and Launch a WordPress Site – AWS](https://aws.amazon.com/getting-started/tutorials/launch-a-wordpress-website/)
+- [How to Register a Domain Name – Amazon Web Services](https://aws.amazon.com/getting-started/tutorials/get-a-domain/)
+- [Connecting to Your Linux Instance from Windows Using PuTTY - Amazon Elastic Compute Cloud](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
 - [Bitnami WordPress For AWS Cloud](https://docs.bitnami.com/aws/apps/wordpress/)
 - [How can I remove bitnami banner on wordpress site - Stack Overflow](https://stackoverflow.com/a/34748576/1177328)
 - [Documentation For Bitnami Info Page](https://docs.bitnami.com/general/components/bninfo/)
