@@ -70,10 +70,10 @@ We will be using an existing Amazon Machine Image (AMI) from the AWS Marketplace
 5. Choose **Save private key** to save the key in the format that PuTTY can use. PuTTYgen displays a warning about saving the key without a passphrase. Choose **Yes**;
    - **NOTE** A passphrase on a private key is an extra layer of protection, so even if the private key is discovered, it can't be used without the passphrase. The downside to using a passphrase is that it makes automation harder because human intervention is needed to log on to an instance, or copy files to an instance.
 6. Save the .ppk file using the **SAME FILE NAME** as we used for the .pem file in the **Step 16** of **Configure EC2 Instance**;
-7. Keep both the .pek file in secured place;
+7. Keep the .pek file in a secured place;
 8. Start **SSH, Telnet, and Rlogin client** (for example, from the Start menu, choose All Programs > PuTTY > **PuTTY**);
 9. In the **Category** left panel, select **Session** and complete the following fields:
-   - Host Name: **bitnami@[Public DNS Name]** (The user name is bitnami as shown in the **Step 3** of **Login to Wordpress Backend**. The Public DNS Name may be **NO LONGER THE SAME** as the Public DNS shown in the **Step 3** of **Test the Wordpress Website, Hello World!**. Please revisit the **Description** tab of the virtual machine to get the new one);
+   - Host Name: **bitnami@[Public DNS Name]** (The user name is bitnami as shown in the **Step 3** of **Test the Wordpress Website, Hello World!**. The Public DNS Name may be **NO LONGER THE SAME** as the Public DNS shown in the **Step 3** of **Test the Wordpress Website, Hello World!**. Please revisit the **Description** tab of the virtual machine to get the new one);
    - Port: **22**
    - Connection type: **SSH**
    - Saved Session: **[Meaningful Name]**
