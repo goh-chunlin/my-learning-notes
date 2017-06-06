@@ -1,7 +1,6 @@
 # Setup Wordpress Website on Amazon EC2 Virtual Machine
 
-## Background
-1. We will be using an existing Amazon Machine Image (AMI) from the AWS Marketplace that has WordPress already installed.
+We will be using an existing Amazon Machine Image (AMI) from the AWS Marketplace that has WordPress already installed.
 
 ## Configure EC2 Instance
 1. Login to the **[AWS Management Console](https://console.aws.amazon.com)**;
