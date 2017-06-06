@@ -82,7 +82,7 @@ We will be using an existing Amazon Machine Image (AMI) from the AWS Marketplace
 12. Open the .ppk file generated in the **Step 6**;
 13. **DO NOT CLICK** the **Open** button at the bottom;
 14. In the **Category** left panel, select **Session** and click the **Save** button;
-    - **NOTE** Next time we can just directly **Load** from the saved Session instead of repeating the steps above to access the virtual machine.
+    - **NOTE** Next time we can just directly **Load** from the saved Session instead of repeating the steps above to access the virtual machine. Hence it is important to enter a meaningful name for the Saved Session in the **Step 9**.
 15. Click the **Open** button at the bottom;
 16. We are now logged in to the virtual machine;
 17. Execute the following command;
