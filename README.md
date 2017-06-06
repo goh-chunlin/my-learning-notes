@@ -10,6 +10,7 @@
 
  - [ASP .NET MVC](/aspnet/mvc/README.md)
  - [Microsoft Azure](/cloud/microsoft-azure/README.md)
+ - [Amazon Web Services (AWS)](/cloud/amazon-web-services/README.md)
  - [Visual Studio](/ide/visual-studio/README.md)
  - [UI/UX](/ui-ux/README.md)
  - SCSS
