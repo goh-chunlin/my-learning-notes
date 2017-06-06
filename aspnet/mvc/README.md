@@ -3,7 +3,7 @@
 ## Table of Contents
  - [Introduction to ASP .NET MVC](/aspnet/mvc/UNIT01-INTRODUCTION.md)
  - [Models](/aspnet/mvc/UNIT02-MODELS.md)
- - Views
+ - [Views](/aspnet/mvc/UNIT03-VIEWS.md)
  - Controllers
  - Forms, Data Annotation, and Validation
  - HTML Helpers
