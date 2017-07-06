@@ -65,7 +65,7 @@ We will be using an existing Amazon Machine Image (AMI) from the AWS Marketplace
 ## Connect to the Instance from Windows Using PuTTY to Remove Bitnami Logo
 1. On the Wordpress website, there will be a Bitnami logo shown in the bottom-right of the page. We can remove it by access to our virtual machine first using PuTTY ([Download Here](https://www.chiark.greenend.org.uk/~sgtatham/putty/));
 2. Start **PuTTY Key Generator** (for example, from the Start menu, choose All Programs > PuTTY > **PuTTYgen**);
-3. Under **Type of key to generate**, choose **SSH2-RSA**;
+3. Under **Type of key to generate**, choose **SSH-2 RSA**;
 4. Click the **Load** button. By default, PuTTYgen displays only files with the extension .ppk. To locate our .pem file generated in the **Step 16** of **Configure EC2 Instance**, select the option to display files of all types;
 5. Choose **Save private key** to save the key in the format that PuTTY can use. PuTTYgen displays a warning about saving the key without a passphrase. Choose **Yes**;
    - **NOTE** A passphrase on a private key is an extra layer of protection, so even if the private key is discovered, it can't be used without the passphrase. The downside to using a passphrase is that it makes automation harder because human intervention is needed to log on to an instance, or copy files to an instance.
@@ -94,6 +94,32 @@ We will be using an existing Amazon Machine Image (AMI) from the AWS Marketplace
     sudo /opt/bitnami/ctlscript.sh restart apache
     ```
 19. Once the Apache server is restarted, revisit the Wordpress blog. The Bitnami logo will be gone.
+
+## Setup SFTP Connection in Filezilla to the Instance
+1. Connect to the Instance from Windows Using PuTTY;
+2. Execute the following command right after login.
+   ```
+   sudo chown -R bitnami:daemon apps/wordpress
+   ```
+3. To connect to a running Amazon EC2 instance with Filezilla:
+   1. Edit -> Settings -> Connection -> SFTP Click "Add keyfile";
+   2. Browse to the location of our .pem file and select it;
+   3. Click OK to close the window;
+   4. File -> Site Manager;
+   5. Add a new site wih the following paramerters:
+      - Host: [Public DNS Name]
+      - Protocol: SFTP - SSH File Transfer Protocol
+      - Logon Type: Normal
+      - User: ubuntu
+
+## Troubleshooting
+If you try to connect to your instance and get an error message Network error: Connection timed out or Error connecting to [instance], reason: -> Connection timed out: connect, try the following. Check your security group rules. You need a security group rule that allows inbound traffic from your public IPv4 address on the proper port.
+1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/;
+2. In the navigation pane, choose Instances, and then select your instance;
+3. In the Description tab, next to Security groups, choose view rules to display the list of rules that are in effect;
+4. Make sure the security group has a rule for SSH that allows inbound traffic from the current IP address.
+
+More: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html#TroubleshootingInstancesConnectionTimeout
 
 ## References
 - [How to Build and Launch a WordPress Site – AWS](https://aws.amazon.com/getting-started/tutorials/launch-a-wordpress-website/)
