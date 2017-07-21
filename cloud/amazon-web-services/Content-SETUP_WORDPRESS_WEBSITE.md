@@ -95,7 +95,7 @@ We will be using an existing Amazon Machine Image (AMI) from the AWS Marketplace
     ```
 19. Once the Apache server is restarted, revisit the Wordpress blog. The Bitnami logo will be gone.
 
-## Setup SFTP Connection in Filezilla to the Instance
+## Setup SFTP Connection in Filezilla to connect to the Instance
 1. Connect to the Instance from Windows Using PuTTY;
 2. Execute the following command right after login.
    ```
@@ -120,6 +120,12 @@ If you try to connect to your instance and get an error message Network error: C
 4. Make sure the security group has a rule for SSH that allows inbound traffic from the current IP address.
 
 More: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html#TroubleshootingInstancesConnectionTimeout
+      
+## Troubleshooting: Deactivate All Plugins Using FTP 
+1. Once connected to the instance via Filezilla, we need to navigate to the **/wp-content/** folder;
+2. Inside wp-content folder, there is a folder called plugins. This is where WordPress stores all plugins installed on the blog;
+3. Right click on the plugins folder and select Rename. Change the name of the plugins folder to, for example **plugins.deactivate**;
+4. All of the plugins will be deactivated.
 
 ## References
 - [How to Build and Launch a WordPress Site – AWS](https://aws.amazon.com/getting-started/tutorials/launch-a-wordpress-website/)
