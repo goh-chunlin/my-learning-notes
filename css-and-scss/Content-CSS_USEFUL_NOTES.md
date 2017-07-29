@@ -96,4 +96,4 @@ The syntax consists of square brackets ([]) containing an attribute name followe
 - `[attr|="val"]` selects all elements with the attribute attr for which the value is exactly `val`, or followed by a hyphen(-) (For `[attr|="val"]` to work in IE8 and earlier, a `DOCTYPE` must be declared.).
 - `[attr^="val"]` selects all elements with the attribute `attr` for which the value starts with `val`.
 - `[attr$="val"]` selects all elements with the attribute `attr` for which the value ends with `val`.
-- `[attr*="val"]` selects all elements with the attribute `attr` for which the value contains the string `val`. Unlike `[attr~=val]`, this selector doesn't treat spaces as value separators but as part of the attribute value.
+- `[attr*="val"]` selects all elements with the attribute `attr` for which the value contains the string `val`. Unlike `[attr~="val"]`, this selector doesn't treat spaces as value separators but as part of the attribute value.
