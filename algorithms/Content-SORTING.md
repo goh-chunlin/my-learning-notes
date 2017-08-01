@@ -138,3 +138,9 @@ private static int[] Sort(int[] source)
     return source;
 }
 ```
+
+## Merge Sort
+
+## Quick Sort
+
+## Heap Sort
