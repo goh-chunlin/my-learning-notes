@@ -2,10 +2,10 @@
 
 ## Bubble Sort
 
-> Worst-case Performance: O(n^2)
-> Best-case Performance: O(n)
-> Average-case Performance: O(n^2)
-> Worst-case Space Complexity: O(1)
+> Worst-case Performance: O(n^2)    
+> Best-case Performance: O(n)    
+> Average-case Performance: O(n^2)    
+> Worst-case Space Complexity: O(1) of additional memory space    
 
 Bubble Sort is a **Comparison Sort** that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is **repeated until no swaps are needed**, which indicates that the list is sorted.
 
@@ -75,6 +75,11 @@ private static int[] Sort(int[] source)
 
 ## Insertion Sort
 
+> Worst-case Performance: O(n^2)    
+> Best-case Performance: O(n)    
+> Average-case Performance: O(n^2)    
+> Worst-case Space Complexity: O(1) of additional memory space    
+
 Insertion Sort iterates up the array and grows the sorted list in front of each array-position. It checks the value there against the largest value in the sorted list. If larger, it leaves the element in place and moves to the next. If smaller, it finds the correct position within the sorted list, shifts all the larger values up to make a space, and inserts into that correct position.
 
 ```
@@ -96,6 +101,38 @@ private static int[] Sort(int[] source)
                 source[j - 1] = temp;
             }
         }
+    }
+
+    return source;
+}
+```
+
+## Selection Sort
+
+> Worst-case Performance: O(n^2)    
+> Best-case Performance: O(n^2)    
+> Average-case Performance: O(n^2)    
+> Worst-case Space Complexity: O(1) of additional memory space    
+
+```
+private static int[] Sort(int[] source)
+{
+    int indexOfSmallestElementInUnsortedSubArray = 1;
+
+    for (int round = 0; round < source.Length; round++)
+    {
+        int temp = source[round];
+
+        for (int i = (round + 1); i < source.Length; i++)
+        {
+            if (source[i] < source[indexOfSmallestElementInUnsortedSubArray])
+            {
+                indexOfSmallestElementInUnsortedSubArray = i;
+            }
+        }
+
+        source[round] = source[indexOfSmallestElementInUnsortedSubArray];
+        source[indexOfSmallestElementInUnsortedSubArray] = temp;
     }
 
     return source;
