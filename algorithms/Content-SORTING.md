@@ -160,19 +160,19 @@ A merge sort works as follows:
 ```
 private static int[] Sort(int[] source)
 {
-    MainSort(source, 0, source.Count() - 1);
+    Divide(source, 0, source.Count() - 1);
 
     return source;
 }
 
-private static void MainSort(int[] source, int startIndex, int endIndex)
+private static void Divide(int[] source, int startIndex, int endIndex)
 {
     if (startIndex < endIndex)
     {
         int middleIndex = (startIndex + endIndex) / 2;
 
-        MainSort(source, startIndex, middleIndex);
-        MainSort(source, middleIndex + 1, endIndex);
+        Divide(source, startIndex, middleIndex);
+        Divide(source, middleIndex + 1, endIndex);
 
         Merge(source, startIndex, middleIndex, endIndex);
     }
@@ -187,19 +187,8 @@ private static void Merge(int[] source, int startIndex, int middleIndex, int end
 
     for (int i = 0; i < temp.Count(); i++)
     {
-        if (leftSubArrayIndex > middleIndex)
-        {
-            temp[i] = source[rightSubArrayIndex];
-
-            rightSubArrayIndex++;
-        }
-        else if (rightSubArrayIndex > endIndex)
-        {
-            temp[i] = source[leftSubArrayIndex];
-
-            leftSubArrayIndex++;
-        }
-        else if (source[leftSubArrayIndex] >= source[rightSubArrayIndex])
+        if (leftSubArrayIndex > middleIndex || 
+            (rightSubArrayIndex <= endIndex && (source[leftSubArrayIndex] >= source[rightSubArrayIndex])))
         {
             temp[i] = source[rightSubArrayIndex];
 
