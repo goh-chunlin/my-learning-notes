@@ -14,6 +14,7 @@
  - [Visual Studio](/ide/visual-studio/README.md)
  - [UI/UX](/ui-ux/README.md)
  - SCSS
+ - [JavaScript and jQuery](/javascript-and-jquery/README.md)
  - Android App Development
  - Windows 10 IoT
  - Unit Testing
