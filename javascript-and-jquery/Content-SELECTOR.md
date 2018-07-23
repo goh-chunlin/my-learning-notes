@@ -1,4 +1,4 @@
-# Document Object Model (DOM) Related
+# Document Object Model (DOM) Selector
 
 ## getElementById versus jQuery Selector
 
