@@ -1,8 +1,8 @@
 # Going from Good to Great: Becoming a Better Software Developer
 
-> I am a software developer working in [Singapore Changi Airport](https://en.wikipedia.org/wiki/Singapore_Changi_Airport). As you can tell from the company name, firstly, it is not in Silicon Valley, a dream place for software developer. Secondly, it is not a software/tech company. So working here means I'm not being technically mentored by a great software developer. I can only guess how to do things the correct way which is good enough to support the business needs.
+> I am a software developer working in a startup called [Haulio](http://haulio.io) which pulls in seed funding from [500 Startups](https://500.co) and [PSA Singapore](https://www.singaporepsa.com/) to disrupt shipping in Singapore. Working as Head of Tech in a startup means I'm not being technically mentored by a great software developer. I can only guess how to do things the correct way which is good enough to support the business needs.
 > 
-> Working in the airport helps me to gain experience in software development. Even though my main focus is web development, I also work on cloud computing, mobile apps, and IoT projects. However, since it's not a software development company, I am missing some important experience such as constructing quality software with a professional software team. 
+> Working in the Haulio helps me to gain experience in software development. Even though my main focus is web development, I also work on cloud computing, mobile apps, and IoT projects. However, since it's not a mature software development company, I am missing some important experience such as constructing quality software with a professional software team. 
 >
 > To overcome this, as a fan of self-learning, I thus choose to spend after office hour to learn new skills and new information in order to keep up with the fast-paced changes in software development field. So, I create this repository to not only share what I've learned, but also to learn from contributors to this notes. If you would like to make contributions to make this set of notes better, feel free to do so! Let's learn together. =) 
 
